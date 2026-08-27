@@ -1,0 +1,41 @@
+{
+  "causal_system_dynamics_eval": {
+    "evaluation_summary": {
+      "verdict": "SUCCESS | PARTIAL_DEGRADATION | RUNAWAY_FAILURE | THRASHING_FAILURE | GRACEFUL_ESCALATION",
+      "attribution": "ENDOGENOUS | EXOGENOUS | HYBRID | NOT_APPLICABLE",
+      "verified_root_cause_step": 0,
+      "terminal_failure_step": 0,
+      "causal_delay_lag": 0
+    },
+    "causal_intervention_analysis": {
+      "counterfactual_intervention_tested": "Description of do(State_k = State*_k)",
+      "causal_efficacy_score": 0.0,
+      "mediation_decomposition": {
+        "natural_direct_effect_score": 0.0,
+        "natural_indirect_effect_score": 0.0,
+        "primary_error_mediator": "Identified state variable or scratchpad entry"
+      }
+    },
+    "feedback_loop_analysis": {
+      "loop_type": "STABLE_CONVERGENT | REINFORCING_CASCADE | BALANCING_OSCILLATION | OPEN_LOOP_DRIFT",
+      "damping_factor": 0.0,
+      "description": "Explanation of structural dynamics and loop interactions"
+    },
+    "stocks_and_flows": {
+      "peak_error_debt_step": 0,
+      "unverified_assumptions_count": 0,
+      "context_corruption_severity": "NONE | LOW | MEDIUM | HIGH | CRITICAL"
+    },
+    "operational_metrics": {
+      "task_success": true,
+      "task_accuracy_score": 1.0,
+      "system_autonomy_rate": 1.0,
+      "escalation_triggered": false,
+      "graceful_escalation_score": 1.0,
+      "loop_convergence_efficiency": 1.0
+    },
+    "structural_remediations": [
+      "Targeted architectural fix"
+    ]
+  }
+}

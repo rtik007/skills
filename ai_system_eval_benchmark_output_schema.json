@@ -1,0 +1,31 @@
+{
+  "benchmark_summary_report": {
+    "dataset_metadata": {
+      "total_trajectories": 100,
+      "system_evaluated": "Target-Agent-v1"
+    },
+    "aggregate_operational_metrics": {
+      "task_success_rate": 0.85,
+      "mean_task_accuracy": 0.89,
+      "mean_system_autonomy_rate": 0.91,
+      "graceful_escalation_rate": 0.82,
+      "uncontrolled_failure_rate": 0.15,
+      "mean_loop_convergence_efficiency": 0.76
+    },
+    "causal_and_structural_metrics": {
+      "mean_causal_delay_lag": 2.4,
+      "mean_causal_efficacy_score": 0.93,
+      "system_dynamics_distribution": {
+        "stable_convergent_pct": 82.0,
+        "reinforcing_cascade_pct": 8.0,
+        "balancing_oscillation_pct": 7.0,
+        "open_loop_drift_pct": 3.0
+      },
+      "attribution_breakdown": {
+        "endogenous_pct": 72.0,
+        "exogenous_pct": 20.0,
+        "hybrid_pct": 8.0
+      }
+    }
+  }
+}
